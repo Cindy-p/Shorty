@@ -9,7 +9,7 @@ use Symfony\Component\HttpFoundation\Request;
 class DefaultController extends Controller
 {
     /*
-    public function indexAction($name)
+    public function indexAction($name
     {
         return $this->render('ShortyFirstBundle:Default:index.html.twig', array('name' => $name));
     }
