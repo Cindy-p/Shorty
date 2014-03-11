@@ -29,6 +29,11 @@ class DefaultController extends Controller
         if ($form->isValid()){
         
             return $this->redirect($this->generateUrl("url_success"));
+        } else {
+            return $this->render(
+                'ShortyFirstBundle:Default:index.html.twig',
+                array('form' => $form->createView())
+            );
         }
         
     }
