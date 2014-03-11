@@ -3,16 +3,18 @@
 {% block title %}Bonjour !{% endblock %}
 
 {% block body %}
-    <form class="form" role="form">
-        <div class="form-group">
-            {{ form_label(form.ancienne_url) }}
-            {{ form_widget(form.ancienne_url) }}
-        </div>
-        <div class="form-group">
-            {{ form_label(form.nouvelle_url) }}
-            {{ form_widget(form.nouvelle_url) }}
-        </div>
-            {{  form_rest(form) }}
-            {{ form_widget(form.valider) }}
-    </form>
+    <div class="container-fluid"></div>
+        <form class="form" role="form">
+            <div class="form-group">
+                {{ form_label(form.ancienne_url) }}
+                {{ form_widget(form.ancienne_url) }}
+            </div>
+            <div class="form-group">
+                {{ form_label(form.nouvelle_url) }}
+                {{ form_widget(form.nouvelle_url) }}
+            </div>
+                {{  form_rest(form) }}
+                {{ form_widget(form.valider) }}
+        </form>
+    </div>
 {% endblock %}

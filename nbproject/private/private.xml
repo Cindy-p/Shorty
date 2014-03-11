@@ -6,7 +6,6 @@
             <file>file:/home/ubuntu/Workspace/symfony2.dev/src/Shorty/FirstBundle/Resources/views/Default/urlSuccess.html.twig</file>
             <file>file:/home/ubuntu/Workspace/symfony2.dev/src/Shorty/FirstBundle/Controller/DefaultController.php</file>
             <file>file:/home/ubuntu/Workspace/symfony2.dev/src/Shorty/FirstBundle/Resources/config/routing.xml</file>
-            <file>file:/home/ubuntu/Workspace/symfony2.dev/src/Shorty/FirstBundle/Entity/Url.php</file>
             <file>file:/home/ubuntu/Workspace/symfony2.dev/src/Shorty/FirstBundle/Resources/views/Default/index.html.twig</file>
         </group>
     </open-files>

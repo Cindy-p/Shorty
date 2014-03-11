@@ -29,7 +29,7 @@ class DefaultController extends Controller
                 "method" => "GET"
             ));
         $form->handleRequest($request);
-        var_dump($form->getErrorsAsString());
+
         if ($form->isValid()){
             return $this->redirect($this->generateUrl("url_success"));
         }
