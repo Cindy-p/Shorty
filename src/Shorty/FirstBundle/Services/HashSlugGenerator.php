@@ -2,7 +2,7 @@
 
 namespace Shorty\FirstBundle\Services;
 
-class SlugGenerator implements SlugGeneratorInterface {
+class HashSlugGenerator implements SlugGeneratorInterface {
 
     protected $sha1;
 

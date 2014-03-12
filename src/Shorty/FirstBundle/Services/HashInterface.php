@@ -2,7 +2,7 @@
 
 namespace Shorty\FirstBundle\Services;
 
-interface Hash {
+interface HashInterface {
     
 public function hash($str);
 
